@@ -38,7 +38,7 @@ end
 # Define your play method below
 def play(board)
   turn(board)
- until !index.between?(0,8)
+ until index.between?(0,8)
   turn(board)
 end
 end
