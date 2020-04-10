@@ -38,8 +38,7 @@ end
 # Define your play method below
 def play(board)
   turn(board)
-  input = gets.strip
-  while input.between?(1,9)
+ while
   turn(board)
 end
 end
