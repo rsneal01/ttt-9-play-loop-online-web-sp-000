@@ -39,8 +39,7 @@ end
 def play(board)
   turn(board)
   input = gets.strip
-  index = input_to_index(input)
-  while index.between?(0,8)
+  while input.between?(1,9)
   turn(board)
 end
 end
