@@ -36,3 +36,11 @@ def turn(board)
 end
 
 # Define your play method below
+def play(board)
+  turn(board)
+  input = gets.strip
+  index = input_to_index(input)
+  while index.between?(0,8)
+  turn(board)
+end
+end
